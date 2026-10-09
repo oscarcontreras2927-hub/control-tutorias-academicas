@@ -7,45 +7,51 @@
     <div class="text-center mb-4">
         <h2>Reportes</h2>
         <p class="text-secondary">
-            Consulta y generación de reportes de tutorías.
+            Consulta la información y el seguimiento de las tutorías académicas.
         </p>
     </div>
 
-    <section class="row">
+    <section class="row g-3">
 
-        <div class="col-md-4 mb-4">
+        <div class="col-12 col-md-6 col-lg-4">
             <div class="card h-100 p-3">
-                <h3>Reporte de Tutorías</h3>
+                <h3>Reporte de tutorías</h3>
 
-                <p>Consultar tutorías realizadas.</p>
+                <p>
+                    Consulta la información de las tutorías programadas y pendientes.
+                </p>
 
-                <button class="btn btn-primary">
+                <a href="/pendientes" class="btn btn-primary mt-2">
                     Consultar tutorías
-                </button>
+                </a>
             </div>
         </div>
 
-        <div class="col-md-4 mb-4">
+        <div class="col-12 col-md-6 col-lg-4">
             <div class="card h-100 p-3">
-                <h3>Seguimiento Académico</h3>
+                <h3>Seguimiento académico</h3>
 
-                <p>Consultar progreso del estudiante.</p>
+                <p>
+                    Revisa el progreso y las observaciones de los estudiantes.
+                </p>
 
-                <button class="btn btn-primary">
+                <a href="/seguimiento" class="btn btn-primary mt-2">
                     Consultar progreso
-                </button>
+                </a>
             </div>
         </div>
 
-        <div class="col-md-4 mb-4">
+        <div class="col-12 col-md-6 col-lg-4">
             <div class="card h-100 p-3">
                 <h3>Generar reporte</h3>
 
-                <p>Consulta de reportes.</p>
+                <p>
+                    Accede a la información disponible para revisar las tutorías.
+                </p>
 
-                <button class="btn btn-primary">
+                <a href="/detalle" class="btn btn-primary mt-2">
                     Generar reporte
-                </button>
+                </a>
             </div>
         </div>
 

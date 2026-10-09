@@ -18,8 +18,8 @@
                 Control de Tutorías Académicas
             </h1>
 
-            <nav class="navbar navbar-expand">
-                <div class="container justify-content-center gap-3">
+            <nav class="navbar navbar-expand-lg">
+             <div class="container justify-content-center flex-wrap gap-2">
 
                     <a class="nav-link text-white" href="/">
                         Inicio

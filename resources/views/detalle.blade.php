@@ -1,52 +1,48 @@
 @extends('layouts.app')
 
-@section('title', 'Detalle de tutoría')
+@section('title', 'Detalle de Tutoría')
 
 @section('content')
 
     <div class="text-center mb-4">
-        <h2>Detalle de tutoría</h2>
+        <h2>Detalle de Tutoría</h2>
+        <p class="text-secondary">
+            Consulta la información de la tutoría académica.
+        </p>
     </div>
 
-    <section class="card p-4">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8">
 
-        <h3>Estudiante</h3>
-        <p>Nombre del estudiante</p>
+            <div class="card p-4">
 
-        <hr>
+                <h3>Datos de la tutoría</h3>
 
-        <h3>Tutor</h3>
-        <p>Nombre del tutor</p>
+                <p><strong>Estudiante:</strong> Por definir</p>
+                <p><strong>Tutor asignado:</strong> Por definir</p>
+                <p><strong>Fecha y hora:</strong> Por definir</p>
+                <p><strong>Estado:</strong> Programada</p>
 
-        <hr>
+                <hr>
 
-        <h3>Fecha y Hora</h3>
+                <h3>Comentarios</h3>
 
-        <p><strong>Fecha:</strong> Por definir</p>
-        <p><strong>Hora:</strong> Por definir</p>
+                <p>
+                    No hay comentarios registrados para esta tutoría.
+                </p>
 
-        <hr>
+                <div class="d-grid gap-2 d-md-flex mt-3">
+                    <a href="/programar" class="btn btn-primary">
+                        Editar tutoría
+                    </a>
 
-        <h3>Información de la tutoría</h3>
+                    <a href="/pendientes" class="btn btn-secondary">
+                        Volver a pendientes
+                    </a>
+                </div>
 
-        <h4>Estado de la tutoría</h4>
-        <p><strong>Estado:</strong> Programada</p>
-
-        <h4>Comentarios de la tutoría</h4>
-        <p>Observaciones</p>
-
-        <div class="text-center mt-3">
-
-            <button class="btn btn-primary me-2">
-                Editar tutoría
-            </button>
-
-            <button class="btn btn-secondary">
-                Cancelar Tutoría
-            </button>
-
+            </div>
         </div>
-
-    </section>
+    </div>
 
 @endsection

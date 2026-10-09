@@ -5,38 +5,50 @@
 @section('content')
 
     <div class="text-center mb-4">
-        <h2>Seguimiento académico</h2>
+        <h2>Seguimiento Académico</h2>
         <p class="text-secondary">
-            Consulta el progreso del estudiante.
+            Consulta el progreso de las tutorías del estudiante.
         </p>
     </div>
 
-    <section class="card p-4">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8">
 
-        <h3>Estudiante</h3>
-        <p>Nombre del estudiante</p>
+            <div class="card p-4">
 
-        <hr>
+                <h3>Información del estudiante</h3>
 
-        <h3>Tutorías realizadas</h3>
-        <p><strong>Cantidad de tutorías:</strong> 5</p>
+                <p><strong>Nombre:</strong> Por definir</p>
+                <p><strong>Tutorías realizadas:</strong> 5</p>
+                <p><strong>Estado:</strong> En seguimiento</p>
 
-        <hr>
+                <hr>
 
-        <h3>Avance académico</h3>
-        <p><strong>Progreso:</strong> En seguimiento</p>
+                <h3>Progreso académico</h3>
 
-        <hr>
+                <p>
+                    El estudiante se encuentra en seguimiento académico.
+                    Se recomienda continuar con las sesiones de tutoría.
+                </p>
 
-        <h3>Observaciones</h3>
-        <p>Comentarios del tutor</p>
+                <h3>Observaciones</h3>
 
-        <div class="text-center mt-3">
-            <a href="/detalle" class="btn btn-primary">
-                Ver detalles
-            </a>
+                <p>
+                    No hay observaciones adicionales registradas.
+                </p>
+
+                <a href="/detalle" class="btn btn-primary mt-2">
+                    Ver historial de tutorías
+                </a>
+
+            </div>
         </div>
+    </div>
 
-    </section>
+    <div class="text-center mt-4">
+        <a href="/estudiantes" class="btn btn-secondary">
+            Volver a estudiantes
+        </a>
+    </div>
 
 @endsection

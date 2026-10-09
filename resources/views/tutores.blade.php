@@ -7,45 +7,51 @@
     <div class="text-center mb-4">
         <h2>Tutores</h2>
         <p class="text-secondary">
-            Gestión de tutores.
+            Consulta la disponibilidad y la información de los tutores.
         </p>
     </div>
 
-    <section class="row">
+    <section class="row g-3">
 
-        <div class="col-md-4 mb-4">
+        <div class="col-12 col-md-6 col-lg-4">
             <div class="card h-100 p-3">
-                <h3>Lista de Tutores</h3>
+                <h3>Lista de tutores</h3>
 
-                <p>Consultar tutores registrados.</p>
+                <p>
+                    Consulta la información de los tutores académicos.
+                </p>
 
-                <button class="btn btn-primary">
+                <a href="/informacion" class="btn btn-primary mt-2">
                     Consultar tutores
-                </button>
+                </a>
             </div>
         </div>
 
-        <div class="col-md-4 mb-4">
+        <div class="col-12 col-md-6 col-lg-4">
             <div class="card h-100 p-3">
                 <h3>Disponibilidad</h3>
 
-                <p>Consultar horarios disponibles.</p>
+                <p>
+                    Revisa los horarios para programar una tutoría.
+                </p>
 
-                <button class="btn btn-primary">
+                <a href="/programar" class="btn btn-primary mt-2">
                     Consultar horarios
-                </button>
+                </a>
             </div>
         </div>
 
-        <div class="col-md-4 mb-4">
+        <div class="col-12 col-md-6 col-lg-4">
             <div class="card h-100 p-3">
-                <h3>Asignar Tutor</h3>
+                <h3>Asignar tutor</h3>
 
-                <p>Asignar un tutor a un estudiante.</p>
+                <p>
+                    Accede al formulario para seleccionar un tutor.
+                </p>
 
-                <button class="btn btn-primary">
+                <a href="/programar" class="btn btn-primary mt-2">
                     Asignar tutor
-                </button>
+                </a>
             </div>
         </div>
 

@@ -7,71 +7,62 @@
     <div class="text-center mb-4">
         <h2>Tutorías</h2>
         <p class="text-secondary">
-            Consulta de tutorías, horarios y tutores disponibles.
+            Consulta los horarios y administra tus tutorías académicas.
         </p>
     </div>
 
-    <section class="row">
+    <section class="row g-3">
 
-        <div class="col-md-4 mb-4">
+        <div class="col-12 col-md-6 col-lg-4">
             <div class="card h-100 p-3">
                 <h3>Horarios</h3>
+                <p>Consulta los horarios disponibles para recibir tutorías.</p>
 
-                <p>Consulta los horarios disponibles para las tutorías.</p>
-
-                <button class="btn btn-primary">
+                <a href="/programar" class="btn btn-primary mt-2">
                     Consultar horarios
-                </button>
-            </div>
-        </div>
-
-        <div class="col-md-4 mb-4">
-            <div class="card h-100 p-3">
-                <h3>Tutorías disponibles</h3>
-
-                <p>Consulta las tutorías que se encuentran disponibles.</p>
-
-                <button class="btn btn-primary">
-                    Ver tutorías
-                </button>
-            </div>
-        </div>
-
-        <div class="col-md-4 mb-4">
-            <div class="card h-100 p-3">
-                <h3>Mis tutorías</h3>
-
-                <p>Consulta las tutorías que tienes programadas.</p>
-
-                <button class="btn btn-primary">
-                    Ver mis tutorías
-                </button>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="row mt-3">
-
-        <div class="col-md-6 mb-4">
-            <div class="card p-3">
-                <h3>Solicitar tutorías</h3>
-
-                <p>Solicita una nueva tutoría académica.</p>
-
-                <a href="/programar" class="btn btn-primary">
-                    Programar una nueva tutoría
                 </a>
             </div>
         </div>
 
-        <div class="col-md-6 mb-4">
-            <div class="card p-3">
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 p-3">
+                <h3>Tutorías disponibles</h3>
+                <p>Revisa las opciones para solicitar apoyo académico.</p>
+
+                <a href="/programar" class="btn btn-primary mt-2">
+                    Ver tutorías
+                </a>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 p-3">
+                <h3>Mis tutorías</h3>
+                <p>Consulta la información de tus tutorías programadas.</p>
+
+                <a href="/pendientes" class="btn btn-primary mt-2">
+                    Ver mis tutorías
+                </a>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 p-3">
+                <h3>Solicitar tutoría</h3>
+                <p>Selecciona un estudiante, un tutor y la fecha de la sesión.</p>
+
+                <a href="/programar" class="btn btn-primary mt-2">
+                    Solicitar tutoría
+                </a>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 p-3">
                 <h3>Tutorías pendientes</h3>
+                <p>Consulta las tutorías que están pendientes de atención.</p>
 
-                <p>Consulta las tutorías que todavía están pendientes.</p>
-
-                <a href="/pendientes" class="btn btn-primary">
+                <a href="/pendientes" class="btn btn-primary mt-2">
                     Consultar pendientes
                 </a>
             </div>

@@ -11,9 +11,9 @@
         </p>
     </div>
 
-    <section class="row">
+    <section class="row g-3">
 
-        <div class="col-md-4 mb-4">
+        <div class="col-12 col-md-6 col-lg-4">
             <div class="card h-100 p-3">
                 <h3>Programar tutoría</h3>
 
@@ -23,12 +23,11 @@
 
                 <a href="/programar" class="btn btn-primary mt-2">
                     Programar tutoría
-                   </a>
+                </a>
             </div>
         </div>
 
-
-        <div class="col-md-4 mb-4">
+        <div class="col-12 col-md-6 col-lg-4">
             <div class="card h-100 p-3">
                 <h3>Tutorías pendientes</h3>
 
@@ -36,14 +35,13 @@
 
                 <h4>0</h4>
 
-               <a href="/pendientes" class="btn btn-primary mt-2">
-                Consultar pendientes
-             </a>
+                <a href="/pendientes" class="btn btn-primary mt-2">
+                    Consultar pendientes
+                </a>
             </div>
         </div>
 
-
-        <div class="col-md-4 mb-4">
+        <div class="col-12 col-md-6 col-lg-4">
             <div class="card h-100 p-3">
                 <h3>Seguimiento Académico</h3>
 
@@ -52,7 +50,7 @@
                 <p>Sin seguimiento registrado.</p>
 
                 <a href="/seguimiento" class="btn btn-primary mt-2">
-                Ver seguimiento
+                    Ver seguimiento
                 </a>
             </div>
         </div>
