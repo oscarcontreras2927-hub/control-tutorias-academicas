@@ -142,6 +142,8 @@
                     <li class="nav-item"><a class="nav-link active" href="/"><i class="bi bi-house-door me-1"></i> Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="/informacion">Información General</a></li>
                     <li class="nav-item"><a class="nav-link" href="/primer-ingreso">Primer Ingreso</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/semestres-intermedios">Semestres Intermedios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/ultimos-semestres">Últimos Semestres</a></li>
                     <li class="nav-item"><a class="nav-link" href="/egreso">Tutoría de Egreso</a></li>
                     <li class="nav-item"><a class="nav-link" href="/recursos">Recursos Educativos</a></li>
                 </ul>
@@ -168,6 +170,7 @@
                     </p>
                 </div>
 
+                <!-- Etapas de la Trayectoria Escolar -->
                 <div class="content-card border-start border-4 border-primary">
                     <h2 class="section-title"><i class="bi bi-stars"></i> Bienvenida a Alumnos de Primer Ingreso</h2>
                     <p>
@@ -176,6 +179,28 @@
                     </p>
                     <a href="/primer-ingreso" class="btn btn-custom mt-2">
                         Ver Guía de Primer Ingreso <i class="bi bi-arrow-right ms-1"></i>
+                    </a>
+                </div>
+
+                <div class="content-card border-start border-4 border-info">
+                    <h2 class="section-title"><i class="bi bi-journal-check"></i> Seguimiento en Semestres Intermedios</h2>
+                    <p>
+                        Para estudiantes de 3° a 6° semestre, ofrecemos orientación enfocada en la consolidación de materias troncales, 
+                        selección de trayectorias optativas, prevención del rezago y preparación para el servicio social.
+                    </p>
+                    <a href="/semestres-intermedios" class="btn btn-custom mt-2">
+                        Ver Guía de Semestres Intermedios <i class="bi bi-arrow-right ms-1"></i>
+                    </a>
+                </div>
+
+                <div class="content-card border-start border-4 border-success">
+                    <h2 class="section-title"><i class="bi bi-briefcase-fill"></i> Orientación para Últimos Semestres</h2>
+                    <p>
+                        Si te encuentras en la recta final de tu carrera, te acompañamos en la auditoría de créditos, prácticas profesionales, 
+                        desarrollo de proyecto terminal y elección de modalidad de titulación.
+                    </p>
+                    <a href="/ultimos-semestres" class="btn btn-custom mt-2">
+                        Ver Guía de Últimos Semestres <i class="bi bi-arrow-right ms-1"></i>
                     </a>
                 </div>
 
@@ -190,7 +215,7 @@
 
             </div>
 
-            <!-- Columna Derecha: Menú de Navegación Lateral (Ídem al portal institucional) -->
+            <!-- Columna Derecha: Menú de Navegación Lateral -->
             <div class="col-lg-4">
                 <div class="sidebar-card">
                     <div class="sidebar-header">
@@ -205,6 +230,12 @@
                         </a>
                         <a href="/primer-ingreso" class="list-group-item">
                             <span>Tutoría para Primer Ingreso</span> <i class="bi bi-chevron-right"></i>
+                        </a>
+                        <a href="/semestres-intermedios" class="list-group-item">
+                            <span>Semestres Intermedios</span> <i class="bi bi-chevron-right"></i>
+                        </a>
+                        <a href="/ultimos-semestres" class="list-group-item">
+                            <span>Últimos Semestres</span> <i class="bi bi-chevron-right"></i>
                         </a>
                         <a href="/antecedentes" class="list-group-item">
                             <span>Antecedentes</span> <i class="bi bi-chevron-right"></i>

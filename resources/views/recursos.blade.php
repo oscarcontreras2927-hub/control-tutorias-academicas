@@ -138,6 +138,8 @@
                     <li class="nav-item"><a class="nav-link" href="/"><i class="bi bi-house-door me-1"></i> Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="/informacion">Información General</a></li>
                     <li class="nav-item"><a class="nav-link" href="/primer-ingreso">Primer Ingreso</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/semestres-intermedios">Semestres Intermedios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/ultimos-semestres">Últimos Semestres</a></li>
                     <li class="nav-item"><a class="nav-link" href="/egreso">Tutoría de Egreso</a></li>
                     <li class="nav-item"><a class="nav-link active" href="/recursos">Recursos Educativos</a></li>
                 </ul>
@@ -165,7 +167,9 @@
                             <div class="text-primary mb-2"><i class="bi bi-journal-richtext display-6"></i></div>
                             <h5 class="fw-bold">Guías de Hábitos de Estudio</h5>
                             <p class="text-muted small mb-3">Técnicas de gestión del tiempo, mapas mentales, lectura veloz y métodos de preparación para exámenes.</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm"><i class="bi bi-download me-1"></i> Descargar Guía</a>
+                            <a href="https://tutorias.udg.mx/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary btn-sm">
+                                <i class="bi bi-box-arrow-up-right me-1"></i> Portal Tutorías UdeG
+                            </a>
                         </div>
                     </div>
 
@@ -174,16 +178,20 @@
                             <div class="text-primary mb-2"><i class="bi bi-laptop display-6"></i></div>
                             <h5 class="fw-bold">Plataformas de Apoyo en Línea</h5>
                             <p class="text-muted small mb-3">Enlaces directos a bibliotecas digitales, simuladores académicos y repositorios de investigación científica.</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm"><i class="bi bi-box-arrow-up-right me-1"></i> Visitar Enlace</a>
+                            <a href="https://wdg.biblio.udg.mx/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary btn-sm">
+                                <i class="bi bi-box-arrow-up-right me-1"></i> Biblioteca Digital UdeG
+                            </a>
                         </div>
                     </div>
 
                     <div class="col-md-6">
                         <div class="resource-card">
                             <div class="text-primary mb-2"><i class="bi bi-file-earmark-spreadsheet display-6"></i></div>
-                            <h5 class="fw-bold">Formatos de Seguimiento</h5>
-                            <p class="text-muted small mb-3">Plantillas editables para planificadores semanales de tareas y registro de avance en créditos.</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm"><i class="bi bi-download me-1"></i> Descargar Plantilla</a>
+                            <h5 class="fw-bold">Formatos y Control Escolar</h5>
+                            <p class="text-muted small mb-3">Acceso al sistema escolar para consulta de kardex, horarios, registro de avance en créditos y trámites.</p>
+                            <a href="http://siiauescolar.siiau.udg.mx/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary btn-sm">
+                                <i class="bi bi-box-arrow-up-right me-1"></i> Ir a SIIAU Escolar
+                            </a>
                         </div>
                     </div>
 
@@ -192,7 +200,9 @@
                             <div class="text-primary mb-2"><i class="bi bi-question-circle display-6"></i></div>
                             <h5 class="fw-bold">FAQs y Vídeos Tutoriales</h5>
                             <p class="text-muted small mb-3">Cápsulas informativas breves sobre el uso de la plataforma escolar y trámites comunes.</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm"><i class="bi bi-play-circle me-1"></i> Ver Videos</a>
+                            <a href="https://www.youtube.com/@udg_oficial" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary btn-sm">
+                                <i class="bi bi-play-circle me-1"></i> Canal Oficial UdeG
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -214,6 +224,12 @@
                         </a>
                         <a href="/primer-ingreso" class="list-group-item">
                             <span>Tutoría para Primer Ingreso</span> <i class="bi bi-chevron-right"></i>
+                        </a>
+                        <a href="/semestres-intermedios" class="list-group-item">
+                            <span>Semestres Intermedios</span> <i class="bi bi-chevron-right"></i>
+                        </a>
+                        <a href="/ultimos-semestres" class="list-group-item">
+                            <span>Últimos Semestres</span> <i class="bi bi-chevron-right"></i>
                         </a>
                         <a href="/antecedentes" class="list-group-item">
                             <span>Antecedentes</span> <i class="bi bi-chevron-right"></i>

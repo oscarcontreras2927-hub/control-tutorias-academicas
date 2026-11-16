@@ -51,3 +51,25 @@ Route::get('/directorio', function () {
 Route::get('/contacto', function () {
     return view('contacto');
 });
+Route::get('/actividad-13', function () {
+    return view('actividad13');
+});
+Route::get('/actividad-14', function () {
+    return view('actividad14');
+});
+Route::get('/actividad-15', function () {
+    return view('actividad15');
+});
+Route::get('/actividad-16', function () {
+    return view('actividad16');
+});
+Route::get('/actividad-17', function () {
+    return view('actividad17');
+});
+Route::get('/semestres-intermedios', function () {
+    return view('semestres-intermedios');
+});
+
+Route::get('/ultimos-semestres', function () {
+    return view('ultimos-semestres');
+});
